@@ -1,0 +1,129 @@
+﻿Mes,Proyecto,Cliente,Servicio,Ingresos,HorasFacturadas,TarifaHora,CosteEquipo,MargenBruto,Estado,Equipo,Seniority,Satisfaccion
+Abr 2025,Apache NiFi Pipeline,Telefónica,Big Data,27184,194,140,16684,10500,Activo,"Sergio Mar,Olga Rey",SemiSenior,84
+Abr 2025,Cloud Migration AWS,Mapfre,Cloud,29789,214,139,19625,10164,Activo,"Hugo Bris,Gema Flor",SemiSenior,73
+Abr 2025,Data Lake Retail,El Corte Inglés,Big Data,46767,345,135,30130,16637,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,88
+Abr 2025,Fraud Detection,BBVA,IA,46708,341,137,30337,16371,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,70
+Abr 2025,IA Documental,Ministerio Justicia,IA,37634,269,140,23634,14000,Activo,"Nuria Cal,Luis Vaz",Junior,85
+Abr 2025,KloudAnalytics Migration,Iberdrola,Cloud,40067,295,136,24574,15493,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,78
+Abr 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,50012,364,138,31784,18228,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Junior,76
+Abr 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,41817,297,140,24939,16878,Activo,"Ana López,David Ruiz,Sara Gil",SemiSenior,76
+Abr 2026,Apache NiFi Pipeline,Telefónica,Big Data,27370,196,140,18484,8886,Activo,"Sergio Mar,Olga Rey",SemiSenior,83
+Abr 2026,Cloud Migration AWS,Mapfre,Cloud,29674,213,139,19152,10522,Activo,"Hugo Bris,Gema Flor",SemiSenior,89
+Abr 2026,Data Lake Retail,El Corte Inglés,Big Data,41936,310,135,28104,13832,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,91
+Abr 2026,Fraud Detection,BBVA,IA,47309,346,137,30239,17070,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,90
+Abr 2026,IA Documental,Ministerio Justicia,IA,34362,245,140,22133,12229,Activo,"Nuria Cal,Luis Vaz",SemiSenior,90
+Abr 2026,KloudAnalytics Migration,Iberdrola,Cloud,40570,299,136,26617,13953,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,75
+Abr 2026,Kloudoop On-Premise,Santander GlobalTech,Big Data,53865,392,138,32636,21229,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,93
+Abr 2026,Smart Medical Codex,Grupo Hospitales Madrid,IA,45683,325,140,28498,17185,Activo,"Ana López,David Ruiz,Sara Gil",Senior,93
+Ago 2025,Apache NiFi Pipeline,Telefónica,Big Data,21204,151,140,13177,8027,Completado,"Sergio Mar,Olga Rey",SemiSenior,88
+Ago 2025,Cloud Migration AWS,Mapfre,Cloud,21412,154,139,12704,8708,Activo,"Hugo Bris,Gema Flor",Junior,85
+Ago 2025,Data Lake Retail,El Corte Inglés,Big Data,30092,222,135,18741,11351,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,73
+Ago 2025,Fraud Detection,BBVA,IA,40143,293,137,24757,15386,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,70
+Ago 2025,IA Documental,Ministerio Justicia,IA,26563,190,140,16463,10100,Completado,"Nuria Cal,Luis Vaz",Senior,81
+Ago 2025,KloudAnalytics Migration,Iberdrola,Cloud,24030,177,136,15217,8813,Completado,"Jorge Sanz,Lucía Tres",Junior,82
+Ago 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,34154,248,138,22213,11941,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,72
+Ago 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,30726,218,140,20184,10542,Completado,"Ana López,David Ruiz,Sara Gil",Junior,81
+Dic 2025,Apache NiFi Pipeline,Telefónica,Big Data,22296,159,140,14991,7305,Completado,"Sergio Mar,Olga Rey",Senior,73
+Dic 2025,Cloud Migration AWS,Mapfre,Cloud,26360,189,139,17442,8918,Activo,"Hugo Bris,Gema Flor",Junior,92
+Dic 2025,Data Lake Retail,El Corte Inglés,Big Data,32423,239,135,20806,11617,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,78
+Dic 2025,Fraud Detection,BBVA,IA,42796,313,137,26128,16668,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,94
+Dic 2025,IA Documental,Ministerio Justicia,IA,26873,192,140,16445,10428,Completado,"Nuria Cal,Luis Vaz",SemiSenior,74
+Dic 2025,KloudAnalytics Migration,Iberdrola,Cloud,28118,207,136,16880,11238,Completado,"Jorge Sanz,Lucía Tres",SemiSenior,81
+Dic 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,47244,344,138,30745,16499,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",SemiSenior,93
+Dic 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,36399,259,140,23727,12672,Completado,"Ana López,David Ruiz,Sara Gil",Senior,91
+Ene 2025,Apache NiFi Pipeline,Telefónica,Big Data,21954,157,140,13461,8493,Activo,"Sergio Mar,Olga Rey",SemiSenior,93
+Ene 2025,Cloud Migration AWS,Mapfre,Cloud,29268,210,139,19018,10250,Activo,"Hugo Bris,Gema Flor",Junior,95
+Ene 2025,Data Lake Retail,El Corte Inglés,Big Data,38967,288,135,25396,13571,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,94
+Ene 2025,Fraud Detection,BBVA,IA,39413,288,137,23944,15469,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",SemiSenior,85
+Ene 2025,IA Documental,Ministerio Justicia,IA,29622,212,140,18441,11181,Activo,"Nuria Cal,Luis Vaz",Junior,79
+Ene 2025,KloudAnalytics Migration,Iberdrola,Cloud,34086,251,136,20391,13695,Activo,"Jorge Sanz,Lucía Tres",Junior,75
+Ene 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,41732,304,138,25147,16585,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Junior,89
+Ene 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,37828,269,140,22592,15236,Activo,"Ana López,David Ruiz,Sara Gil",Junior,72
+Ene 2026,Apache NiFi Pipeline,Telefónica,Big Data,24350,174,140,15091,9259,Activo,"Sergio Mar,Olga Rey",SemiSenior,94
+Ene 2026,Cloud Migration AWS,Mapfre,Cloud,28208,203,139,17577,10631,Activo,"Hugo Bris,Gema Flor",Senior,75
+Ene 2026,Data Lake Retail,El Corte Inglés,Big Data,32896,243,135,20582,12314,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,70
+Ene 2026,Fraud Detection,BBVA,IA,43052,315,137,27242,15810,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,79
+Ene 2026,IA Documental,Ministerio Justicia,IA,32806,234,140,19840,12966,Activo,"Nuria Cal,Luis Vaz",Junior,88
+Ene 2026,KloudAnalytics Migration,Iberdrola,Cloud,32726,241,136,21652,11074,Activo,"Jorge Sanz,Lucía Tres",Junior,86
+Ene 2026,Kloudoop On-Premise,Santander GlobalTech,Big Data,42546,309,138,26328,16218,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,92
+Ene 2026,Smart Medical Codex,Grupo Hospitales Madrid,IA,35571,253,140,21736,13835,Activo,"Ana López,David Ruiz,Sara Gil",Junior,75
+Feb 2025,Apache NiFi Pipeline,Telefónica,Big Data,25646,183,140,15873,9773,Activo,"Sergio Mar,Olga Rey",Junior,94
+Feb 2025,Cloud Migration AWS,Mapfre,Cloud,29577,213,139,17412,12165,Activo,"Hugo Bris,Gema Flor",Junior,93
+Feb 2025,Data Lake Retail,El Corte Inglés,Big Data,35350,261,135,23363,11987,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,80
+Feb 2025,Fraud Detection,BBVA,IA,45506,333,137,27570,17936,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",SemiSenior,78
+Feb 2025,IA Documental,Ministerio Justicia,IA,35029,250,140,22202,12827,Activo,"Nuria Cal,Luis Vaz",Junior,78
+Feb 2025,KloudAnalytics Migration,Iberdrola,Cloud,31826,235,136,19252,12574,Activo,"Jorge Sanz,Lucía Tres",Senior,88
+Feb 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,44532,324,138,29909,14623,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",SemiSenior,90
+Feb 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,41583,296,140,25796,15787,Activo,"Ana López,David Ruiz,Sara Gil",Senior,71
+Feb 2026,Apache NiFi Pipeline,Telefónica,Big Data,23493,168,140,14798,8695,Activo,"Sergio Mar,Olga Rey",SemiSenior,94
+Feb 2026,Cloud Migration AWS,Mapfre,Cloud,31732,228,139,19005,12727,Activo,"Hugo Bris,Gema Flor",Senior,72
+Feb 2026,Data Lake Retail,El Corte Inglés,Big Data,37386,276,135,24551,12835,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,75
+Feb 2026,Fraud Detection,BBVA,IA,42000,307,137,25091,16909,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",SemiSenior,89
+Feb 2026,IA Documental,Ministerio Justicia,IA,34496,246,140,20415,14081,Activo,"Nuria Cal,Luis Vaz",Senior,81
+Feb 2026,KloudAnalytics Migration,Iberdrola,Cloud,31760,234,136,20697,11063,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,88
+Feb 2026,Kloudoop On-Premise,Santander GlobalTech,Big Data,52954,385,138,33902,19052,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,71
+Feb 2026,Smart Medical Codex,Grupo Hospitales Madrid,IA,39100,278,140,24313,14787,Activo,"Ana López,David Ruiz,Sara Gil",Senior,70
+Jul 2025,Apache NiFi Pipeline,Telefónica,Big Data,25688,183,140,15798,9890,Activo,"Sergio Mar,Olga Rey",Senior,86
+Jul 2025,Cloud Migration AWS,Mapfre,Cloud,33155,238,139,21904,11251,Activo,"Hugo Bris,Gema Flor",SemiSenior,92
+Jul 2025,Data Lake Retail,El Corte Inglés,Big Data,37394,276,135,24668,12726,Activo,"Raúl Fez,Elena Ser,Diego Val",SemiSenior,76
+Jul 2025,Fraud Detection,BBVA,IA,52526,384,137,33810,18716,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,90
+Jul 2025,IA Documental,Ministerio Justicia,IA,31857,228,140,20707,11150,Activo,"Nuria Cal,Luis Vaz",SemiSenior,78
+Jul 2025,KloudAnalytics Migration,Iberdrola,Cloud,38806,286,136,24153,14653,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,94
+Jul 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,59682,434,138,37970,21712,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Junior,79
+Jul 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,46324,329,140,29670,16654,Activo,"Ana López,David Ruiz,Sara Gil",Senior,82
+Jun 2025,Apache NiFi Pipeline,Telefónica,Big Data,33286,238,140,20591,12695,Completado,"Sergio Mar,Olga Rey",SemiSenior,75
+Jun 2025,Cloud Migration AWS,Mapfre,Cloud,32920,237,139,20134,12786,Activo,"Hugo Bris,Gema Flor",SemiSenior,85
+Jun 2025,Data Lake Retail,El Corte Inglés,Big Data,42597,314,135,25927,16670,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,72
+Jun 2025,Fraud Detection,BBVA,IA,62310,455,137,41727,20583,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,77
+Jun 2025,IA Documental,Ministerio Justicia,IA,39485,282,140,25749,13736,Completado,"Nuria Cal,Luis Vaz",Junior,81
+Jun 2025,KloudAnalytics Migration,Iberdrola,Cloud,38507,284,136,25747,12760,Completado,"Jorge Sanz,Lucía Tres",SemiSenior,80
+Jun 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,65189,474,138,40399,24790,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,88
+Jun 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,52648,374,140,32189,20459,Completado,"Ana López,David Ruiz,Sara Gil",SemiSenior,70
+Mar 2025,Apache NiFi Pipeline,Telefónica,Big Data,23766,170,140,15967,7799,Activo,"Sergio Mar,Olga Rey",SemiSenior,93
+Mar 2025,Cloud Migration AWS,Mapfre,Cloud,26944,194,139,17178,9766,Activo,"Hugo Bris,Gema Flor",Senior,75
+Mar 2025,Data Lake Retail,El Corte Inglés,Big Data,35981,266,135,24136,11845,Activo,"Raúl Fez,Elena Ser,Diego Val",SemiSenior,81
+Mar 2025,Fraud Detection,BBVA,IA,44078,322,137,27485,16593,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",SemiSenior,82
+Mar 2025,IA Documental,Ministerio Justicia,IA,31009,221,140,18377,12632,Activo,"Nuria Cal,Luis Vaz",Junior,76
+Mar 2025,KloudAnalytics Migration,Iberdrola,Cloud,38825,286,136,23270,15555,Activo,"Jorge Sanz,Lucía Tres",Senior,93
+Mar 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,51363,374,138,33478,17885,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Junior,83
+Mar 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,41606,296,140,27340,14266,Activo,"Ana López,David Ruiz,Sara Gil",SemiSenior,80
+Mar 2026,Apache NiFi Pipeline,Telefónica,Big Data,23494,168,140,15123,8371,Activo,"Sergio Mar,Olga Rey",Junior,81
+Mar 2026,Cloud Migration AWS,Mapfre,Cloud,33520,241,139,20351,13169,Activo,"Hugo Bris,Gema Flor",Senior,71
+Mar 2026,Data Lake Retail,El Corte Inglés,Big Data,43486,321,135,27651,15835,Activo,"Raúl Fez,Elena Ser,Diego Val",Junior,93
+Mar 2026,Fraud Detection,BBVA,IA,46728,341,137,30837,15891,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,78
+Mar 2026,IA Documental,Ministerio Justicia,IA,32620,233,140,19625,12995,Activo,"Nuria Cal,Luis Vaz",Senior,86
+Mar 2026,KloudAnalytics Migration,Iberdrola,Cloud,40410,298,136,26608,13802,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,86
+Mar 2026,Kloudoop On-Premise,Santander GlobalTech,Big Data,46408,338,138,31243,15165,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,79
+Mar 2026,Smart Medical Codex,Grupo Hospitales Madrid,IA,44028,313,140,27498,16530,Activo,"Ana López,David Ruiz,Sara Gil",Senior,87
+May 2025,Apache NiFi Pipeline,Telefónica,Big Data,28026,200,140,17599,10427,Activo,"Sergio Mar,Olga Rey",Junior,95
+May 2025,Cloud Migration AWS,Mapfre,Cloud,30687,221,139,19039,11648,Activo,"Hugo Bris,Gema Flor",Senior,90
+May 2025,Data Lake Retail,El Corte Inglés,Big Data,47831,353,135,29933,17898,Activo,"Raúl Fez,Elena Ser,Diego Val",SemiSenior,83
+May 2025,Fraud Detection,BBVA,IA,60474,442,137,38839,21635,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Senior,83
+May 2025,IA Documental,Ministerio Justicia,IA,38133,272,140,24770,13363,Activo,"Nuria Cal,Luis Vaz",Senior,83
+May 2025,KloudAnalytics Migration,Iberdrola,Cloud,35413,261,136,22837,12576,Activo,"Jorge Sanz,Lucía Tres",SemiSenior,90
+May 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,58048,422,138,35228,22820,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,88
+May 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,51625,367,140,33875,17750,Activo,"Ana López,David Ruiz,Sara Gil",Junior,94
+Nov 2025,Apache NiFi Pipeline,Telefónica,Big Data,31411,224,140,20672,10739,Activo,"Sergio Mar,Olga Rey",SemiSenior,76
+Nov 2025,Cloud Migration AWS,Mapfre,Cloud,31541,227,139,18560,12981,Activo,"Hugo Bris,Gema Flor",SemiSenior,89
+Nov 2025,Data Lake Retail,El Corte Inglés,Big Data,42708,315,135,26723,15985,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,92
+Nov 2025,Fraud Detection,BBVA,IA,61164,447,137,39001,22163,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,78
+Nov 2025,IA Documental,Ministerio Justicia,IA,39620,283,140,23885,15735,Activo,"Nuria Cal,Luis Vaz",Junior,93
+Nov 2025,KloudAnalytics Migration,Iberdrola,Cloud,46497,343,136,30564,15933,Activo,"Jorge Sanz,Lucía Tres",Senior,76
+Nov 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,66428,483,138,40346,26082,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,89
+Nov 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,50302,358,140,30207,20095,Activo,"Ana López,David Ruiz,Sara Gil",Senior,84
+Oct 2025,Apache NiFi Pipeline,Telefónica,Big Data,30892,221,140,19690,11202,Activo,"Sergio Mar,Olga Rey",Senior,74
+Oct 2025,Cloud Migration AWS,Mapfre,Cloud,33025,237,139,20421,12604,Activo,"Hugo Bris,Gema Flor",Senior,70
+Oct 2025,Data Lake Retail,El Corte Inglés,Big Data,40307,298,135,24451,15856,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,81
+Oct 2025,Fraud Detection,BBVA,IA,53346,390,137,33680,19666,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,93
+Oct 2025,IA Documental,Ministerio Justicia,IA,33406,239,140,20810,12596,Activo,"Nuria Cal,Luis Vaz",Junior,76
+Oct 2025,KloudAnalytics Migration,Iberdrola,Cloud,37732,278,136,24249,13483,Activo,"Jorge Sanz,Lucía Tres",Junior,86
+Oct 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,61937,450,138,37826,24111,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,94
+Oct 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,52069,370,140,31359,20710,Activo,"Ana López,David Ruiz,Sara Gil",SemiSenior,72
+Sep 2025,Apache NiFi Pipeline,Telefónica,Big Data,32323,231,140,21464,10859,Activo,"Sergio Mar,Olga Rey",SemiSenior,90
+Sep 2025,Cloud Migration AWS,Mapfre,Cloud,32326,232,139,20274,12052,Activo,"Hugo Bris,Gema Flor",Junior,70
+Sep 2025,Data Lake Retail,El Corte Inglés,Big Data,46997,347,135,29888,17109,Activo,"Raúl Fez,Elena Ser,Diego Val",Senior,93
+Sep 2025,Fraud Detection,BBVA,IA,59671,436,137,35702,23969,Activo,"Marta Ros,Pablo Tor,Víctor Ari,Clara Luz",Junior,73
+Sep 2025,IA Documental,Ministerio Justicia,IA,40244,287,140,23972,16272,Activo,"Nuria Cal,Luis Vaz",Junior,76
+Sep 2025,KloudAnalytics Migration,Iberdrola,Cloud,40274,297,136,24778,15496,Activo,"Jorge Sanz,Lucía Tres",Senior,70
+Sep 2025,Kloudoop On-Premise,Santander GlobalTech,Big Data,63849,464,138,42602,21247,Activo,"Carlos Mena,Laura Gil,Pedro Sol,María Paz",Senior,81
+Sep 2025,Smart Medical Codex,Grupo Hospitales Madrid,IA,51893,369,140,32334,19559,Activo,"Ana López,David Ruiz,Sara Gil",SemiSenior,72
