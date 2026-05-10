@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep raw, exclude processed caches)
+*.pkl
+*.h5
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI cache
+*.pbix
+*.pbit
+*.pbip/*.binlog
+
+# Reports (keep generated, but not temp)
+reports/*.tmp
+
+# Logs
+*.log
