@@ -60,8 +60,8 @@ class DataPipeline:
 
     def run(self) -> pd.DataFrame:
         self.load()
-        self.clean()
         self.parse_dates()
+        self.clean()
         self.encode_categoricals()
         self.engineer_features()
         return self.df

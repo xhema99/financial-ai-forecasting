@@ -11,6 +11,8 @@ from src.exploration.eda import EDA
 from src.forecasting.prophet_model import FinancialForecaster
 from src.anomaly_detection.detector import AnomalyDetector
 from src.visualization.charts import ExecutiveCharts
+from src.forecasting.mlp_model import MLPFinancialForecaster
+from src.forecasting.comparison import ModelComparison
 from src.utils.helpers import (
     generate_executive_summary,
     export_for_powerbi,
@@ -23,14 +25,14 @@ def main(raw_path: str = "data/raw/KEEDIO_Cierre_Mensual.csv"):
     print("=" * 60)
 
     # 1. LOAD & TRANSFORM
-    print("\n[1/7] Loading and transforming data...")
+    print("\n[1/8] Loading and transforming data...")
     pipeline = DataPipeline(raw_path)
     df = pipeline.run()
     monthly = pipeline.get_monthly_aggregate()
     print(f"  → {len(df)} records loaded, {len(monthly)} months aggregated")
 
     # 2. EDA
-    print("\n[2/7] Running exploratory analysis...")
+    print("\n[2/8] Running exploratory analysis...")
     eda = EDA(df)
     summary = eda.summary()
     report_path = eda.report()
@@ -40,7 +42,7 @@ def main(raw_path: str = "data/raw/KEEDIO_Cierre_Mensual.csv"):
     print(f"  → EDA report saved: {report_path}")
 
     # 3. FORECASTING
-    print("\n[3/7] Training Prophet forecasting model...")
+    print("\n[3/8] Training Prophet forecasting model...")
     forecaster = FinancialForecaster(monthly, target="Ingresos")
     forecaster.train()
     forecaster.forecast_future(periods=90)
@@ -52,26 +54,44 @@ def main(raw_path: str = "data/raw/KEEDIO_Cierre_Mensual.csv"):
         print(f"  → Insight: {ins}")
 
     # 4. ANOMALY DETECTION
-    print("\n[4/7] Detecting anomalies...")
+    print("\n[4/8] Detecting anomalies...")
     detector = AnomalyDetector(df)
     anomaly_results = detector.detect_all(monthly_df=monthly)
     detector.plot_anomalies()
     anom_insights = detector.anomaly_insights()
     print(f"  → Anomalies detected: {len(detector.anomalies) if detector.anomalies is not None else 0}")
 
-    # 5. EXECUTIVE CHARTS
-    print("\n[5/7] Generating executive visualizations...")
+    # 5. MODEL COMPARISON
+    print("\n[5/8] Comparing Prophet vs MLP Neural Network...")
+    try:
+        mlp_forecaster = MLPFinancialForecaster(monthly, target="Ingresos", lookback=3)
+        mlp_forecaster.train()
+        mlp_forecaster.forecast_future(periods=90)
+        mlp_img = mlp_forecaster.plot_forecast()
+        print(f"  → MLP metrics: {mlp_forecaster.metrics}")
+        print(f"  → MLP forecast plot: {mlp_img}")
+
+        comparison = ModelComparison(forecaster, mlp_forecaster)
+        comp_img = comparison.plot_comparison()
+        comp_report = comparison.report()
+        print(f"  → Comparison chart: {comp_img}")
+        print(f"  → Comparison report: {comp_report}")
+    except Exception as e:
+        print(f"  → MLP comparison skipped: {e}")
+
+    # 6. EXECUTIVE CHARTS
+    print("\n[6/8] Generating executive visualizations...")
     charts = ExecutiveCharts(df, monthly)
     chart_paths = charts.generate_all()
     print(f"  → {len(chart_paths)} charts generated")
 
-    # 6. EXPORT
-    print("\n[6/7] Exporting data...")
+    # 7. EXPORT
+    print("\n[7/8] Exporting data...")
     pbi_path = export_for_powerbi(df)
     print(f"  → Power BI data: {pbi_path}")
 
-    # 7. EXECUTIVE SUMMARY
-    print("\n[7/7] Generating executive summary...")
+    # 8. EXECUTIVE SUMMARY
+    print("\n[8/8] Generating executive summary...")
     summary_text = generate_executive_summary(
         forecaster.metrics, insights, anom_insights
     )

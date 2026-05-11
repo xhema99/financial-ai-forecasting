@@ -52,7 +52,8 @@ class FinancialForecaster:
         return self.model
 
     def forecast_future(self, periods: int = 90):
-        future = self.model.make_future_dataframe(periods=periods, freq="MS")
+        months = max(1, periods // 30)
+        future = self.model.make_future_dataframe(periods=months, freq="MS")
         self.forecast = self.model.predict(future)
         return self.forecast
 
